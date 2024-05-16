@@ -5,7 +5,7 @@ resource "aws_instance" "name" {
   key_name        = "N.virginia-key"
 
   tags = {
-    Name = "jenkins-terraform"
+    Name = "jenk-terra-otto"
   }
   user_data = file("jenkins-install.sh")
 }
